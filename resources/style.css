@@ -1,0 +1,19 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+header .logo{
+    display: flex;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li{
+    margin-left: 16px;
+}
