@@ -1,3 +1,7 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -20,15 +24,36 @@ header ul li{
 
 .banner {
     display: flex;
+    background-color: lightgray;
 
 }
 
 .banner img{
     width: 60%;
+    margin: 32px 24px;
 }
 
 .banner-text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    padding-right: 5%;
+}
+
+.banner-text h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5rem;
+    color: rgb(67, 67, 69);
+}
+.banner-text p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(67, 67, 69);
+}
+
+.banner-text button{
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(67, 67, 69);
+    color: white;
 }
