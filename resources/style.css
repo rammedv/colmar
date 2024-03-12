@@ -1,7 +1,7 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/* header section */
 header{
     display: flex;
     justify-content: space-between;
@@ -21,6 +21,8 @@ header ul {
 header ul li{
     margin-left: 16px;
 }
+
+/* banner section */
 
 .banner {
     display: flex;
@@ -56,4 +58,56 @@ header ul li{
     padding-bottom: 8px;
     background-color: rgb(67, 67, 69);
     color: white;
+}
+
+/* information-main section */
+
+.section-1 {
+    display: flex;
+}
+
+.section-1 .left-1 {
+    width: 60%;
+    margin: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-1 .name{
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+}
+
+.section-1 .left-1 img{
+    width: 100%;
+    height: auto;
+}
+
+.section-1 .right-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 40%;
+    border-left: 1px solid gray;
+}
+
+.section-1 .right-1 .info-block{
+    display: flex;
+    width: 100%;
+}
+
+.section-1 .right-1 img{
+    width: 35%;
+    height: auto;
+    margin: 16px;
+    object-fit: contain;
+}
+
+#guest {
+    background-color: lightgray;
 }
