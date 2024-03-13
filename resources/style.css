@@ -87,6 +87,8 @@ header ul li, footer ul li{
     padding-bottom: 8px;
     background-color: rgb(67, 67, 69);
     color: white;
+    border: 1px solid;
+    border-radius: 20px;
 }
 
 button:hover{
@@ -132,6 +134,7 @@ button:hover{
 .section-1 .right-1 .info-block{
     display: flex;
     width: 100%;
+    transition: background-color ease 400ms;
     /* object-fit: contain; */
 }
 
@@ -164,6 +167,7 @@ button:hover{
 
 #guest {
     background-color: lightgray;
+    transition: background-color ease 400ms;
 }
 
 #guest:hover{
@@ -195,6 +199,7 @@ button:hover{
     flex-basis: 30%;
     margin-right: 32px;
     height: auto;
+    transition: background-color ease 400ms;
 }
 
 .courses .subj:hover{
@@ -211,12 +216,17 @@ button:hover{
     margin: 16px;
 }
 
+.subj h6{
+    font-size: 1.5rem;
+}
+
 /* #thesis {
     border: 0;
 } */
 
 #fisma {
     background-color: lightgray;
+    transition: background-color ease 400ms;
 }
 
 #fisma:hover{
@@ -224,5 +234,17 @@ button:hover{
 }
 
 video{
+    margin: 0;
+    padding: 0;
+    border: 0;
     object-fit: contain;
+}
+
+.thesis .left-1 h6{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.thesis .left-1{
+    margin-top: 16px;
 }
