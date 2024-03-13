@@ -2,8 +2,14 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(67, 67, 69)
 }
+
+h1{
+    text-align: center;
+    padding-top: 32px;
+}
+
 /* header section */
-header{
+header, footer{
     display: flex;
     justify-content: space-between;
     margin-left: 24px;
@@ -14,12 +20,12 @@ header .logo{
     display: flex;
 }
 
-header ul {
+header ul, footer ul {
     display: flex;
     list-style-type: none;
 }
 
-header ul li{
+header ul li, footer ul li{
     margin-left: 16px;
 }
 
@@ -133,23 +139,38 @@ header ul li{
 
 .courses {
     background-color: rgb(232, 231, 231);
+    padding-bottom: 32px;
 }
 
-.courses h1{
-    text-align: center;
-    padding-top: 32px;
-}
+
+
+
 
 .courses .subj-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 32px 40px;
+    background-color: white;
+    margin: 32px 72px;
 }
 
 .courses .subj {
-    margin: 32px;
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    margin-right: 32px;
+    height: auto;
 }
 
 .courses .subj img{
     height: auto;
+    display: flex;
+    width: 100%;
+}
+
+#thesis {
+    border: 0;
+}
+
+#fisma {
+    background-color: lightgray;
 }
